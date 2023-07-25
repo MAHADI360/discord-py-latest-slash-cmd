@@ -11,8 +11,8 @@ Intents = discord.Intents.all
 
 @bot.event
 async def on_ready():
-	await bot.tree.sync()
-	print("RedY")
+    await bot.tree.sync()
+    print("RedY")
 
 @bot.command()
 @commands.guild_only()
