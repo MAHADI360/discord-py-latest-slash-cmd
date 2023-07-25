@@ -51,4 +51,4 @@ async def sync(ctx: commands.Context, guilds: commands.Greedy[discord.Object], s
 async def say_hi(interaction : discord.Interaction):
     await interaction.response.send_message("Hi")
 
-bot.run("MTEzMzM4MDc0NzA4NDk2MzkxMQ.G0MuDC.6ekGU3ptPg446otQ9LGCYLaPlWgQPREVXM7j8Q")
+bot.run("YOUR TOKEN HERE")
